@@ -8,9 +8,9 @@ A powerful full stack Search Engine
   * [x] Basic tokenization
   * [ ] Refine
 * Web Crawler made in NodeJS
-  * [ ] Find and isolate all written content
+  * [x] Find and isolate all written content
   * [ ] Tokenise all content 
-  * [ ] Get all links on a given webpage
+  * [x] Get all links on a given webpage
      * [ ] Crawl through the
   * [ ] Save all tokens and links to database
 * Engine made in Golang

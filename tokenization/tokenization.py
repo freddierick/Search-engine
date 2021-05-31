@@ -32,7 +32,7 @@ def tokenize(text):
     for entity in doc.ents: 
         specialFinds.append((entity.text, entity.label_)) 
 
-    return json.dumps({'noun-phrases': nouns, 'verbs': verbs, 'adverbs': adverbs, 'special': specialFinds, 'tokenised-text': [token.lemma_ for token in doc], 'time-to-run': (time.time() * 1000) - start})
+    return json.dumps({'noun-phrases': nouns, 'verbs': verbs, 'adverbs': adverbs, 'special': specialFinds, 'tokenized-text': [token.lemma_ for token in doc], 'time-to-run': (time.time() * 1000) - start})
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
